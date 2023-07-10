@@ -21,7 +21,6 @@ class  hello{
 	
 	static void test()
 	{
-		
 		System.out.println("test");
 	}
 

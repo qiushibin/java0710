@@ -20,6 +20,8 @@ class  hello{
 		one._s1 = "s1";
 		one.test2(one._s1);
 
+		qsbjava2 qj = new qsbjava2();
+		qj.pp();
 	}
 	
 	static void test()
@@ -29,6 +31,6 @@ class  hello{
 
 	void test2(String ss)
 	{
-		System.out.println("test2" + ss );
+		System.out.println("test2  " + ss );
 	}
 }

@@ -1,5 +1,7 @@
 class  hello{
 
+	String   _s1;
+
 	public static void main(String[] args) {
 		int j = 0;
 		String ss = "ssssss";
@@ -15,7 +17,8 @@ class  hello{
 		hello.test();
 
 		hello one = new hello();
-		one.test2();
+		one._s1 = "s1";
+		one.test2(one._s1);
 
 	}
 	
@@ -24,8 +27,8 @@ class  hello{
 		System.out.println("test");
 	}
 
-	void test2()
+	void test2(String ss)
 	{
-		System.out.println("test2");
+		System.out.println("test2" + ss );
 	}
 }

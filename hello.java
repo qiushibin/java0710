@@ -22,15 +22,17 @@ class  hello{
 
 		qsbjava2 qj = new qsbjava2();
 		qj.pp();
+		int intok = qj.ok;
+		System.out.println(intok );
 	}
 	
 	static void test()
 	{
-		System.out.println("test");
+		System.out.println("test " );
 	}
 
 	void test2(String ss)
 	{
-		System.out.println("test2  " + ss );
+		System.out.println("test2  " + ss + _s1);
 	}
 }

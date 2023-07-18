@@ -4,7 +4,7 @@ class  hello{
 
 	public static void main(String[] args) {
 		int j = 0;
-		String ss = "ssssss";
+		String ss =  new String("ssssss");
 		int[] s ={1,2,3};
 		while (j<3)
 		{
@@ -16,6 +16,8 @@ class  hello{
 		System.out.println(s.length);
 		hello.test();
 
+		j = s[1];
+
 		hello one = new hello();
 		one._s1 = "s1";
 		one.test2(one._s1);
@@ -24,6 +26,8 @@ class  hello{
 		qj.pp();
 		int intok = qj.ok;
 		System.out.println(intok );
+		qj.pf(0);
+		qj.pf2();
 	}
 	
 	static void test()

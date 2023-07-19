@@ -28,6 +28,7 @@ class  hello{
 		System.out.println(intok );
 		qj.pf(0);
 		qj.pf2();
+
 	}
 	
 	static void test()

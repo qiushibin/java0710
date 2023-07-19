@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class qsbjava2 extends qsbclass{ 
+public class qsbjava2 extends qsbclass implements inface{ 
     int ok = (int) (Math.random() *10);
 
     ArrayList<Integer> dd = new ArrayList<Integer>();
@@ -21,7 +21,13 @@ public class qsbjava2 extends qsbclass{
     void pf2(){
        
         System.out.println("pf 2 extends");
-        
+        super.pf2();
+    }
+
+    @Override
+    public void plau() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'plau'");
     }
 
 }

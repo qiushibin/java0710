@@ -22,7 +22,7 @@ class  hello{
 		one._s1 = "s1";
 		one.test2(one._s1);
 
-		qsbjava2 qj = new qsbjava2();
+		qsbjava2 qj = new qsbjava2("dd");
 		qj.pp();
 		int intok = qj.ok;
 		System.out.println(intok );

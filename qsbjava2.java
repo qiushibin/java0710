@@ -3,6 +3,14 @@ import java.util.Scanner;
 
 public class qsbjava2 extends qsbclass implements inface{ 
     int ok = (int) (Math.random() *10);
+    String  ss;
+
+    public qsbjava2(){
+        ss = "dd";
+    }
+    public qsbjava2(String s1){
+        ss = s1;
+    }
 
     ArrayList<Integer> dd = new ArrayList<Integer>();
 
@@ -16,6 +24,7 @@ public class qsbjava2 extends qsbclass implements inface{
             System.out.println("input:" +a);
         }
         this.pf(1);
+        
     }
 
     void pf2(){
@@ -29,5 +38,7 @@ public class qsbjava2 extends qsbclass implements inface{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'plau'");
     }
+
+    
 
 }

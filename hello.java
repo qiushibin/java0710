@@ -28,7 +28,7 @@ class  hello{
 		System.out.println(intok );
 		qj.pf(0);
 		qj.pf2();
-
+		System.out.println(String.format("The num %,.3f", 453234.453665 ));
 	}
 	
 	static void test()
